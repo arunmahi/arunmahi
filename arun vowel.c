@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-char z;
+char z,a,e,i,o,u;
 scanf("%c",&z);
 if(z==a,e,i,o,u)
 printf("vowel");
