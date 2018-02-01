@@ -2,16 +2,16 @@
 #include<conio.h>
 void main()
 {
-int i,N[i],c=0,K,T;
+int x,a[x],c=0,K,j;
 printf("enter sum upto and no: of elements");
-scanf("%d%d",&K,&T);
-for(i=1;i<=T;i++)
+scanf("%d%d",&K,&j);
+for(x=1;x<=j;x++)
 {
-scanf("%d",&N[i]);
+scanf("%d",&a[x]);
 }
-for(i=1;i<=K;i++)
+for(x=1;x<=K;x++)
 {
-c=c+N[i];
+c=c+a[x];
 }
 printf("sum is %d",c);
 }
