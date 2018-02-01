@@ -7,7 +7,7 @@ printf("enter the integer");
 scanf("%lld",&x);
 while(x !=0)
 {
-x /=0;
+x /=10;
 ++y;
 }
 printf("no of digits is %d",y);
