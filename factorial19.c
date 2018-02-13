@@ -1,13 +1,10 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+void main() 
 {
-int a,i,fact=1;
-printf("enter the number",a);
+	int a,i,x=1;
+printf("enter the value");
 scanf("%d",&a);
-for(i=0;i<=a;i++)
-{
-fact=fact+i;
-}
-printf("factorial is %d",fact);
-return 0;
+for(i=1;i<=n;i++)
+x=x*i;
+printf("the factorial value is%d",x);
 }
