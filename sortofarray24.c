@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(void) 
 {
-	int n,i,j,temp, a[i];
+	int b,i,j,temp, a[i];
 	printf("\n enter the array size:");
-	scanf("%d",&n);
+	scanf("%d",&b);
 	printf("\n enter the array elements:");
-	for(i=0;i<n;i++)
+	for(i=0;i<b;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	for (i=0;i<n;i++)
+	for (i=0;i<b;i++)
 	{
-		for(j=i+1;j<n;j++)
+		for(j=i+1;j<b;j++)
 		{
 			if(a[i]>a[j])
 			{
@@ -21,7 +21,7 @@ int main(void)
 			}
 		}
 	}
-	for(i=0;i<n;i++)
+	for(i=0;i<b;i++)
 	{
 		printf("%d ",a[i]);
 	}
