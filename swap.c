@@ -2,7 +2,7 @@
 void main()
 {
 int a,b,c=0;
-printf("enter a,b values: );
+printf("enter a,b values: ");
 scanf("%d%d",&a,&b);
 c=a;
 a=b;
